@@ -1,0 +1,16 @@
+.header{
+    font-family: 'Alegreya Sans',
+    sans-serif;
+    font-size:3em;
+    font-weight:bold;
+    color:#262626;
+    padding:40px;
+}
+
+.language{
+ width:150px;
+ margin:auto;
+ height:150px;
+background-origin: inherit;
+background-position: center;
+}

@@ -1,0 +1,6 @@
+.projects:hover{
+    box-shadow: 5px 5px 5px black;
+    background-color:#262626;
+    color:white;
+    cursor: pointer;
+}

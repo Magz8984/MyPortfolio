@@ -1,0 +1,29 @@
+<div class="container">
+        <div class="mat-app-background basic-container">
+                <button mat-icon-button [matMenuTriggerFor]="menu" class="btn btn-info btn-outline">
+                    <i class="material-icons">menu</i>
+                </button>
+                
+                
+                <mat-menu #menu="matMenu" yPosition="above">
+                    <a routerLink='/home' routerLinkActive='active' mat-menu-item>
+                        <div style="display:flex">
+                            <p style="flex:1">Home</p>
+                            <p style="flex:1"> <i class="material-icons">home</i></p>    
+                        </div>
+                      </a>
+                    <a routerLink='/about' routerLinkActive='active' mat-menu-item>
+                      <div style="display:flex">
+                          <p style="flex:1">Projects</p>  
+                      </div>
+                    </a>
+                    <a routerLink='/skills' routerLinkActive='active' mat-menu-item>
+                        <span>Skills</span>
+                    </a>
+                    <a routerLink='/contacts' routerLinkActive='active' mat-menu-item>
+                        <span>Contacts</span>
+                    </a>
+                </mat-menu>
+                </div>
+  <router-outlet></router-outlet>
+</div>
