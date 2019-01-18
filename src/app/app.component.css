@@ -2,3 +2,42 @@
 a{
   text-decoration: none;
 }
+
+.options{
+  visibility:hidden;
+  height:0px;
+  width:0px;
+}
+.basic-container{
+  background-color:#262626;
+}
+.basic-container a{
+  color:white;
+}
+.btnmenu{
+  visibility:hidden;
+}
+
+.options,.menu{
+  flex:1;
+}
+
+.basic-container{
+  display: flex;
+}
+
+.options ul li{
+  display:inline-flex
+}
+
+
+@media only screen and (max-width:800px) {
+  .btnmenu{
+    visibility: visible;
+  }
+}
+@media only screen and (min-width:800px){
+  .options{
+    visibility: visible;
+  }
+}
