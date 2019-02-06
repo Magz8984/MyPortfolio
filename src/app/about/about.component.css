@@ -1,6 +1,5 @@
 .projects{
-    transition: all .3s cubic-bezier(0.645, 0.045, 0.355, 1);
-    border: 1px groove black;
+    transition: all .3s cubic-bezier(0.645, 0.045, 0.355, 1); 
     margin-top: 5px;
 }
 .projects:hover{
