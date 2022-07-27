@@ -4,10 +4,53 @@
 
 .section-title h5 {
     color: grey;
-    font-weight: 370;
+    font-weight: 400;
 }
 
 .img-fluid {
     max-width: 420px;
     height:auto;
+}
+
+
+.progress-wrapper {
+    position: relative;
+    background-color: #152238;
+}
+
+.progress-text {
+    position: absolute;
+    left: 0;
+    font-weight: 500;
+}
+
+.progress-percentage {
+    position: absolute;
+    right: 0;
+}
+
+.progress-text, .progress-percentage {
+    padding: 0px 10px 0px 10px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.buttons{
+    margin: 30px 0px 10px 0px;
+}
+.cta-button {
+    background-color: #152238;
+    font-family: 'Rubik', sans-serif;
+    border: 0px;
+    color: white;
+    border-radius: 3px !important;
+    font-weight: 500;
+}
+
+.contact-me-button {
+    border: 1px solid #152238 !important;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 20px;
+    background-color: #fff;
+    color: #152238;
+    font-weight: 500;
 }
