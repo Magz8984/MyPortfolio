@@ -1,10 +1,13 @@
-.projects{
-    transition: all .3s cubic-bezier(0.645, 0.045, 0.355, 1); 
-    margin-top: 5px;
+.about-content {
+    margin-top: 5vh;
 }
-.projects:hover{
-    box-shadow: 5px 5px 5px black;
-    background-color:#262626;
-    color:white;
-    cursor: pointer;
+
+.section-title h5 {
+    color: grey;
+    font-weight: 370;
+}
+
+.img-fluid {
+    max-width: 420px;
+    height:auto;
 }
