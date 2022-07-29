@@ -1,0 +1,33 @@
+.footer-content{
+    background-color: #152238;
+    padding: 60px 10% 60px 10%;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+.socials{
+    width: 50%;
+}
+
+.socials h4 {
+    font-weight: 300;
+}
+
+.links a {
+    color: white !important;
+    margin-right: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0 !important;
+}
+
+ul li {
+    margin-top: 8px;
+    font-weight: 300;
+}
+
+.email {
+    margin-top: 20px;
+    font-weight: 300;
+}
