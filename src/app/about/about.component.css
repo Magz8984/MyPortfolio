@@ -2,6 +2,10 @@
     margin-top: 5vh;
 }
 
+.section-title {
+    margin-top: 40px;
+}
+
 .section-title h5 {
     color: grey;
     font-weight: 400;

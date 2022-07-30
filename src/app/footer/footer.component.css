@@ -27,7 +27,11 @@ ul li {
     font-weight: 300;
 }
 
-.email {
+.email, .phone-number {
     margin-top: 20px;
     font-weight: 300;
+}
+
+.phone-number {
+    font-weight: 500
 }
