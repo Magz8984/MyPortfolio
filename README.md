@@ -12,3 +12,12 @@ how to reach me.
 * CSS
 * Typescript
 
+# Deploy
+- Build distribution package
+```
+ng build --prod --base-href "https://magz8984.github.io/MyPortfolio/"
+```
+- Deploy to gh-pages branch
+```
+npx angular-cli-ghpages --dir=dist/Potforlio
+```
